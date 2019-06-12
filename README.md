@@ -73,8 +73,14 @@ Runs both the front-end client and back-end server 'concurrently' in one termina
 Provides easy virtual DOM manipulation and state management. This makes building Single Page Applications easy and allows for fast development. 
 
 ### Context API
+While not a installed dependency, it replaced Redux in my project. It provides and incredibly easy to work with solution to 'prop drilling'. To me this seemed more intuitive and avoids a 'layer of indeirection' which can make code hard to follow when usign redux. 
+
 ### React Helmet
+Allows individual setting of Title and metadata for each page when used with a pre renderer such as Snapshot (see below). This has fantastically improved SEO, and helped make Create React App SEO friendly. 
+
 ### Axios
+
+
 ### Local Storage
 ### Query String
 ### React Snapshot 
