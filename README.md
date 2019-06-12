@@ -96,9 +96,11 @@ Generates static HTML pages for each route in the application. This can be used 
 ### Instafeed.js 
 Makes use of the Instagram API to quickly integrate a instagram feed.
 
-## Front-End Depndencies (Development)
+## Front-End Dependencies (Development)
 
 ### Jest
+Jest is a node based test runner, which functions as both a testing framework and an assertion library. It is incredibly useful for carrying out unit and integration tests. 
+
 ### Enzyme 
 
 
