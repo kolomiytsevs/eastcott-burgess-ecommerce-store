@@ -65,12 +65,12 @@ A staright forward solution to environmental variable management.
 Improves production efficiency by restarting the devlopment server on save. 
 
 ### Concurrently 
-Runs bott the front-end client and back-end server 'concurrently' in one terminal.
+Runs both the front-end client and back-end server 'concurrently' in one terminal.
 
 ## Front-End Dependencies (Production)
 
 ### React
-
+Provides easy virtual DOM manipulation and state management. This makes building Single Page Applications easy and allows for fast development. 
 
 ### Context API
 ### React Helmet
