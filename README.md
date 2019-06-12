@@ -31,6 +31,9 @@ You can view my site [here](https://www.eastcottandburgess.com/home) or clicking
 ### Google Analytics ID (gtag.js)
 The Google Analytics SDK allowed me to integrate 'tags' into the website and send event data to Google Anlaytics. Since the inception of our company, it has been incredibly useful in helping us make design, functionality, as well as business decisions. It requires a Google Anlaytics ID to connect to the relevant account. 
 
+### Instagram API 
+This requires a userId and accessToken for the Instagram API to retrieve posts from your Instagram account. 
+
 
 # Tech-Stack
 ## Back-End Dependencies (Production)
@@ -87,7 +90,9 @@ Provides access to local storage in the browser. This is useful in preserving se
 ### Query String
 Used to parse transaction IDs sent as a url query string by Node Paypal SDK to our frontend in order to securely verify the transaction.
 
-### React Snapshot 
+### React Snapshot Pre-Rendering
+Generates static HTML pages for each route in the application. This can be used in combination with React Helmet ot imporve SEO. Most importantly it imporves page loading speedsas this takes the pressure off the server when generating and caching routes. 
+
 ### Instafeed.js 
 
 ## Front-End Depndencies (Development)
