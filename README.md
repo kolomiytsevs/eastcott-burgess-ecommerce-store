@@ -29,7 +29,7 @@ You can view my site [here](https://www.eastcottandburgess.com/home) or see my p
 ## External Libraries
 
 ### Google Analytics ID (gtag.js)
-The Google Analytics SDK allowed me to integrate 'tags' into the website and send event data to Google Anlaytics. Since the inception of our company, it has been incredibly useful in helping us make design, functionality, as well as business decisions. 
+The Google Analytics SDK allowed me to integrate 'tags' into the website and send event data to Google Anlaytics. Since the inception of our company, it has been incredibly useful in helping us make design, functionality, as well as business decisions. It requires a Google Anlaytics ID to connect to the relevant account. 
 
 
 # Tech-Stack
