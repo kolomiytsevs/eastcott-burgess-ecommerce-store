@@ -24,18 +24,31 @@ You can view my site [here](https://www.eastcottandburgess.com/home) or see my p
 
 `MAILCHIMP_AUTH`: Mailchimp authorisation key
 
+# Additional Config
+
+## External Libraries
+
+### Google Analytics ID (gtag.js)
+
 
 # Tech-Stack
 ## Back-End Dependencies (Production)
 
 ### Compression
-### Concurrently
 ### Cors 
 ### Express
 ### Helmet
 ### MongoDB
 ### Mongoose 
 ### PayPal REST SDK
+
+## Back-End Depndencies (Development)
+
+### DotEnv 
+### Nodemon
+### Concurrently 
+### Request 
+
 
 ## Front-End Dependencies (Production)
 
@@ -52,3 +65,5 @@ You can view my site [here](https://www.eastcottandburgess.com/home) or see my p
 
 ### Jest
 ### Enzyme 
+
+
