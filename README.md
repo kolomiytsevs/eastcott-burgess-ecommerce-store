@@ -79,9 +79,11 @@ While not a installed dependency, it replaced Redux in my project. It provides a
 Allows individual setting of Title and metadata for each page when used with a pre renderer such as Snapshot (see below). This has fantastically improved SEO, and helped make Create React App SEO friendly. 
 
 ### Axios
-
+A light weigth promise based HTTP client which makes it easy to make request to the backend and handle responses. 
 
 ### Local Storage
+Provides access to local storage in the browser. This is useful in preserving session data over multiple sessions in the client without the need to communicate with the server or database. 
+
 ### Query String
 ### React Snapshot 
 ### Instafeed.js 
