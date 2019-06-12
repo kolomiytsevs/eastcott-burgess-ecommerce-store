@@ -54,7 +54,7 @@ Chose for it's flexibility, MongoDB is a NoSQL database and uses JSON to store d
 Schema based object modelling which is desinged to work with MongoDB. 
 
 ### PayPal REST SDK
-
+As the REST SDK can be integrated on the Node server, this allowed for a large amount of customisationa and flexibility. As a mobile first ecommerce store I wanted to make the checkout porcess as easy as possible and reduce 'form filling', making PayPal the perfect solution as over 95% of our customers already choose PayPal to checkout on our website (even with alternatives being offered). This allow customers to intiate checkout straight from the basket drawer. Its integrationw ith node also allows for secure transaction authentication. 
 
 ## Back-End Depndencies (Development)
 
