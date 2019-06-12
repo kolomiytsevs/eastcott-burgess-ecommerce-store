@@ -48,8 +48,13 @@ This minimalist NodeJS framework which allows for very fast server side setup. T
 HelmetJS helps maintain information security by putting steps in palce to prevent malicious attacks. It is incredibly easy to implement and also highly customisable.
 
 ### MongoDB
+Chose for it's flexibility, MongoDB is a NoSQL database and uses JSON to store data. As we develop and add new features, I want the information collected to remain flexible and want to have the option of adding additional fields in the future if necessary. While during development the collections are no longer being used, it is set up and ready to handle user auth integration and cookies. 
+
 ### Mongoose 
+Schema based object modelling which is desinged to work with MongoDB. 
+
 ### PayPal REST SDK
+
 
 ## Back-End Depndencies (Development)
 
