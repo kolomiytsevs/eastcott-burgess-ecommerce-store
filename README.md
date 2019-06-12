@@ -2,7 +2,7 @@
 
 Thanks for viewing my Online Tea Store repository.
 
-You can view my site [here](https://www.eastcottandburgess.com/home) or clicking on the image down below for a video detaling the thought porcess behind my project and some data. 
+You can view my site [here](https://www.eastcottandburgess.com/home) or clicking on the image down below for a video detailing the thought process behind my project along wth some performance data. 
 
 [![Online Store YoutUbe Video](https://res.cloudinary.com/eastcott-and-burgess/image/upload/v1560367740/Website_Screenshot_2_hdiezz.jpg)](https://www.youtube.com/watch?v=YIv21AMN9IY&t=1s)
 
