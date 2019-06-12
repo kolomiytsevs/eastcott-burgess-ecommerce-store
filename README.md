@@ -44,7 +44,9 @@ Used to secure communication between the front-end and the NodeJS back-end API, 
 ### ExpressJS
 This minimalist NodeJS framework which allows for very fast server side setup. Together with Node (which is run on Google's V8 engine), this allowed for fast perfomance and requests, while the native use of javascript makes handling of JSON data super easy. Additionally Node's single theraded event loop mechanism also allows it to handle multiple simultaneous connection efficiently. This helps ensure that our site can scale as engaement grows. 
 
-### Helmet
+### HelmetJS
+HelmetJS helps maintain information security by putting steps in palce to prevent malicious attacks. It is incredibly easy to implement and also highly customisable.
+
 ### MongoDB
 ### Mongoose 
 ### PayPal REST SDK
