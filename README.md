@@ -34,6 +34,8 @@ The Google Analytics SDK allowed me to integrate 'tags' into the website and sen
 ### Instagram API 
 This requires a userId and accessToken for the Instagram API to retrieve posts from your Instagram account. 
 
+### Mail Chimp 
+Used to allow users to subscribe to our mailing list, this is an incredibly powerful API. You will have to configure this to your personal account/ subscriber list. 
 
 # Tech-Stack
 ## Back-End Dependencies (Production)
