@@ -49,30 +49,7 @@ router.post('/pay', (req, res, next)=> {
                 :false
             })
             
-            /*let tariffObj = {
-                "uk": {
-                    "tier1": 1.8,
-                    "tier2": 3.6,
-                    "tier3": 8.1                    
-                    },
-                "us":{
-                    "tier1": 9.12,
-                    "tier2": 11.6,
-                    "tier3": 21.89                    
-                    },
-                "rest-of-world":{
-                    "tier1": 9.12,
-                    "tier2": 11.6,
-                    "tier3": 21.89                    
-                    },
-                "eu":{
-                    "tier1": 5.1,
-                    "tier2": 8.2,
-                    "tier3": 13.9                    
-                    }
-            }*/
-
-
+           
             let postalCategory = req.body.postalCategory
             let productTypeBreakdown = req.body.productTypeBreakdown
             
@@ -289,10 +266,6 @@ router.route('/success_api').post((req, res)=> {
 
 
 
-            
-
-            
-                
             let shipping=postageTier()
             let productSelectPrices = content.map(item=> item.price*item.quantity)
             let productSelectTotal = productSelectPrices.reduce((acc, val)=> acc+val, shipping).toFixed(2)// fixed outcome to 2 dp to avoid errors
