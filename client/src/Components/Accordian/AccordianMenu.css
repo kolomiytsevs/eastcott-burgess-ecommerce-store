@@ -1,0 +1,58 @@
+.menu{
+    border:none;
+    border-radius:2px;
+    /*margin-top:80px;*/
+    overflow:hidden;
+    background-color:white;
+    padding-top:5px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.137);
+}
+.menu-item{
+    display:block;
+    overflow:hidden;
+    border-top:solid white 2px;
+}
+.menu-item > h4{
+    background-color: rgb(228, 228, 228);
+    margin:0px;
+    font-size:20px;
+    padding:10px 10px;
+    font-weight:350;
+}
+
+.menu-item> h4:hover{
+    cursor:pointer;
+}
+
+.menu-item > .p{
+    margin:0px;
+    block-size: 0px;
+    transition: all 0.3s ease-out;
+    padding:0px 10px;
+    
+}
+
+.menu-item-selected > .p{
+    block-size: 600px;
+    overflow-y: auto;
+    transition: all 0.3s ease-out;
+    padding:0px 10px;
+    margin:0px;
+    
+}
+
+.menu-item-selected >h4{
+    background-color:  rgb(228, 228, 228);
+    margin:0px;
+    font-size:20px;
+    padding: 10px 10px;
+    font-weight:350; 
+}
+.menu-item-selected {
+    display:block;
+    overflow:hidden;
+    border-top:solid white 2px; 
+}
+
+
+

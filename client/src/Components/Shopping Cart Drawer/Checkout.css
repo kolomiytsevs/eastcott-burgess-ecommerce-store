@@ -1,0 +1,56 @@
+.checkout-div{
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center; 
+    align-self:flex-end; 
+    margin:auto auto 10px auto; 
+    align-items:center; 
+    font-size:22px; 
+    font-weight:600; 
+    padding:30px; 
+    color:white;
+    background-color:rgba(0, 195, 255); 
+    border-radius:10px; 
+    width:90%; 
+    height:50px; 
+    cursor:pointer
+}
+
+.hideLoader{
+    display:none;
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

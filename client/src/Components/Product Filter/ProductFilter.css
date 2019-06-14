@@ -1,0 +1,75 @@
+.filter-buttons{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:5%;
+    
+}
+
+button{
+    margin: 0px 5px;
+    border:none;
+    border-radius:5px;
+    background-color:lightgray;
+    color:black;
+    padding:3px 10px 3px 10px;
+    cursor:"pointer"
+    
+}
+.button{
+    margin: 0px 5px;
+    border:none;
+    border-radius:5px;
+    background-color:lightgray;
+    color:black;
+    padding:3px;
+    padding:3px 10px 3px 10px;
+    
+}
+.button-active{
+    outline:none;
+    background-color:rgba(0, 195, 255);
+    color:white;
+}
+button:focus{
+    outline:none;
+    background-color:rgba(0, 195, 255);
+    color:white;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .filter-buttons{
+        display:flex;
+        justify-content: center;
+        margin-right:25px;
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .filter-buttons{
+        display:flex;
+        justify-content: center;
+        margin-right:15px;
+        
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .filter-buttons{
+        display:flex;
+        justify-content: flex-end;
+        margin-right:105px;
+        
+    }
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1999px){
+    .filter-buttons{
+        display:flex;
+        justify-content: flex-end;
+        margin-right:105px;
+        
+    }
+}
+

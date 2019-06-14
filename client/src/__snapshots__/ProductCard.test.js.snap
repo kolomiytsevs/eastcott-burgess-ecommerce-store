@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`yet another fake snapshot test 1`] = `
+<div
+  className="product-container"
+  onPointerEnter={[Function]}
+  style={
+    Object {
+      "margin": "10px",
+    }
+  }
+>
+  <a
+    className="image-link"
+    href="/shop/ool_TGY_XZ_a17_caddy"
+    onClick={[Function]}
+  >
+    <img
+      alt="Tie Guan Yin Xiao Zheng Autumn 2017"
+      className="img-top"
+      onPointerOut={[Function]}
+      onPointerOver={[Function]}
+      src="https://res.cloudinary.com/eastcott-and-burgess/image/upload/c_fill,f_auto,h_350,e_sharpen:90,q_auto:best,w_350/v1558877289/TGY%20ZW/100%20kb/_MG_9698_vuv0kc.jpg"
+    />
+  </a>
+  <div
+    className="product-text"
+  >
+    <a
+      className="product-name"
+      href="/shop/ool_TGY_XZ_a17_caddy"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "black",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "textDecoration": "none",
+        }
+      }
+    >
+      Tie Guan Yin Xiao Zheng Autumn 2017
+    </a>
+  </div>
+  <h3
+    className="product-price"
+    style={
+      Object {
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "padding": "10px",
+        "textAlign": "start",
+      }
+    }
+  >
+    £ 
+    16.23
+  </h3>
+</div>
+`;

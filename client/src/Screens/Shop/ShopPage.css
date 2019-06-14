@@ -1,0 +1,44 @@
+Product{
+    margin:100px;
+}
+
+.shop-header-img{
+    top:0;
+    left:0;
+    object-fit:cover;
+    width:100%;
+    height:300px;
+    
+    position:absolute;
+    z-index: -1;
+}
+.text-div > p{
+    font-weight:450;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .text-div{
+        padding:0px 5% 0px 5%;
+    }
+    .distinguish-tgy{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .text-div{
+        padding:0px 5% 0px 5%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .text-div{
+        padding:0px 10% 0px 10%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1999px){
+    .text-div{
+        padding:0px 25% 0px 25%;
+    } 
+}

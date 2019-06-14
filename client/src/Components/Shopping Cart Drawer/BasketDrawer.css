@@ -1,0 +1,242 @@
+.map-grid{
+    display:flex; 
+    flex-direction:column; 
+    background-color:rgba(255,255,255,0.95);
+    overflow:auto;
+    z-index:99;
+    position:fixed;
+    top:0;
+ 
+    height:100vh;
+    padding-top:50px;
+    
+}
+
+.backdrop{
+    background-color:rgba(0, 0, 0, 0.4);
+    height:100vh;
+    width:100%;
+    top:0;
+    position:fixed;
+    z-index: 60;
+    
+
+}
+
+.wrapper{
+    display:flex;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.shipping-select{
+    margin:10px;
+}
+.x-close{
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center; 
+    align-self:flex-end; 
+    
+    
+    margin:auto auto 80px auto; 
+    align-items:center; 
+    font-weight:600; 
+    
+    color:black; 
+    background-color:rgba(0, 195, 255); 
+    border-radius:100px; 
+    width:50px; 
+    height:50px; 
+    cursor:pointer
+}
+
+.x-close svg{
+    width:50px !important;
+    height:50px !important;
+    margin:15px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .map-grid{
+        width:100%; 
+    }
+    .backdrop{
+        display:none;
+    }
+    .menu-slide-enter{
+        position:fixed;
+        transform: translateX(100%);
+        width:100%;
+        top:0;
+        right:0;
+        z-index:100;
+        
+    }
+    .menu-slide-enter-active{
+        position:fixed;
+        transform: translateX(0);
+        width:100%;
+        transition:all 350ms ease-out;
+        top:0;
+        right:0;
+        z-index:100;
+        
+    }
+    .menu-slide-exit{
+        position:fixed;
+        transform: translateX(0);
+        width:100%;
+        top:0;
+        right:0;
+        z-index:100;
+    }
+    .menu-slide-exit-active{
+        position:fixed;
+        transform: translateX(100%);
+        width:100%;
+        transition:all 350ms ease-out;
+        top:0;
+        right:0;
+        z-index:100;
+    }
+    .x-close{
+        margin-bottom:150px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .map-grid{
+        width:100%;
+              
+    }
+    .x-close{
+        margin-bottom:150px;
+    }
+    .backdrop{
+        display:none;
+    }
+    .menu-slide-enter{
+        position:fixed;
+        transform: translateX(100%);
+        width:100%;
+        top:0;
+        right:0;
+        z-index: 100;
+        
+    }
+    .menu-slide-enter-active{
+        position:fixed;
+        transform: translateX(0);
+        width:100%;
+        transition:all 350ms ease-out;
+        top:0;
+        right:0;
+        z-index:100;
+        
+        
+    }
+    .menu-slide-exit{
+        position:fixed;
+        transform: translateX(0);
+        width:100%;
+        top:0;
+        right:0;
+        z-index:100;
+    }
+    .menu-slide-exit-active{
+        position:fixed;
+        transform: translateX(100%);
+        width:100%;
+        transition:all 350ms ease-out;
+        top:0;
+        right:0;
+        z-index:100;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .map-grid{
+        width:350px;
+        right:0; 
+    }
+    .backdrop{
+    
+        z-index:60;
+    }
+    .menu-slide-enter{
+        transform: translateX(350px);
+        position:fixed;
+        top:0;
+        right:0;
+        z-index: 100;
+        
+    }
+    .menu-slide-enter-active{
+        transform: translateX(0);
+        transition:all 150ms ease-out;
+        position:fixed;
+        right:0;
+        top:0;
+        z-index: 100;
+    }
+    .menu-slide-exit{
+        transform: translateX(0);
+        top:0;
+        right:0;
+        position: fixed;
+        z-index: 100;
+    }
+    .menu-slide-exit-active{
+        transform: translateX(350px);
+        transition:all 150ms ease-out;
+        top:0;
+        right:0;
+        position:fixed;
+        z-index: 100;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1999px){
+    .map-grid{
+        width:350px;
+        right:0; 
+    }
+    .backdrop{
+        
+        z-index:60;
+    }
+    .menu-slide-enter{
+        transform: translateX(350px);
+        position:fixed;
+        top:0;
+        right:0;
+        z-index: 100;
+        
+    }
+    .menu-slide-enter-active{
+        transform: translateX(0);
+        transition:all 150ms ease-out;
+        position:fixed;
+        right:0;
+        top:0;
+        z-index: 100;
+    }
+    .menu-slide-exit{
+        transform: translateX(0);
+        top:0;
+        right:0;
+        position: fixed;
+        z-index: 100;
+    }
+    .menu-slide-exit-active{
+        transform: translateX(350px);
+        transition:all 150ms ease-out;
+        top:0;
+        right:0;
+        position:fixed;
+        z-index: 100;
+    }
+}

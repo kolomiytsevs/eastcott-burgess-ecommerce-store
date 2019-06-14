@@ -1,0 +1,242 @@
+.main-nav{
+    display: flex;
+    padding-left:60px;
+    padding-right: 40px;
+    font-weight:600;
+    font-size:15px;
+    z-index:101;
+    background-color: rgba(170, 170, 170, 0.8) !important;
+    box-shadow: 0px 1px 1px 1px rgba(68, 68, 68, 0.2);
+    color:white;
+    position: fixed;
+    top:0;
+    width:100%;
+}
+svg{
+    width:23px;
+    height:23px;
+    fill:white;
+    
+}
+
+.mobile-nav{
+    display: flex;
+    font-weight:600;
+    font-size:22px;
+    position: fixed;
+    bottom: 0;
+    z-index: 105;
+    width:100%;
+    justify-content: space-around;
+    text-align:center;
+}
+
+.mobile-nav p{
+    font-size:10px !important;
+    text-align: start;
+    font-weight:100;
+    margin-bottom:2px !important;
+    
+}
+
+.mobile-nav > {
+    cursor:pointer; 
+    text-decoration:none; 
+    color:white; 
+    align-self:center
+}
+
+.mobile-nav > .mob-basket{
+    /*margin-bottom:auto;
+    margin-top:8px;*/
+}
+
+.nav-logo > img{
+    margin-top:5px;
+}
+
+.link-home{
+    align-self: center;
+    margin-left:10px;
+}
+.link-shop{
+    align-self: center;
+    margin-left:30px;
+}
+.link-club{
+    align-self: center;
+    margin-left:30px;
+}
+.link-story{
+    align-self: center;
+    margin-left:30px;
+}
+.link-media{
+    align-self: center;
+    margin-left:30px;
+}
+.link-home:hover{
+    color:rgb(255, 251, 190) !important
+}
+.link-shop:hover{
+    color:rgb(255, 251, 190) !important
+}
+.link-club:hover{
+    color:rgb(255, 251, 190) !important
+}
+.link-story:hover{
+    color:rgb(255, 251, 190) !important
+}
+.link-media:hover{
+    color:rgb(255, 251, 190) !important
+}
+
+.is-active{
+  color:  rgb(156, 232, 255) !important
+    
+}
+.is-active svg{
+    fill: rgb(156, 232, 255) !important;
+    
+}
+
+.basket-div{
+    
+}
+
+.badge{
+    background-color:rgba(0, 195, 255) !important;
+    border-radius: 8px;
+}
+
+.social{
+    color:white !important;
+    display:flex;
+    align-self: center;
+    margin-left:auto;
+}
+
+.social a{
+    color:white;
+    margin:10px;
+}
+
+.login-sign{
+    color:white !important;
+    display:flex;
+    align-self: center;
+}
+.login-sign a{
+    color:white;
+    margin:10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .social{
+        display:none;
+    }
+    .login-sign{
+        position:fixed;
+        top:0;
+        right:0;
+        margin: auto 20px auto 0px;
+    }
+    .main-nav{
+        display: flex;
+        padding-left:10px;
+        padding-right: 10px;
+        font-weight:600;
+        font-size:15px;
+        z-index: 101;
+    }
+    .nav-links{
+        display:none;
+    }
+    .basket-div{
+        display:none;
+    }
+    .nav-logo{
+        display: flex;
+        margin-left:auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .social{
+        display:none;
+    }
+    .login-sign{
+        position:fixed;
+        top:0;
+        right:0;
+        margin: auto 20px auto 0px;
+    }
+    .main-nav{
+        display: flex;
+        padding-left:10px;
+        padding-right: 10px;
+        font-weight:600;
+        font-size:15px;
+        z-index: 101;
+    }
+    .nav-links{
+        display:none;
+    }
+    .basket-div{
+        display:none;
+    }
+    .nav-logo{
+        display: flex;
+        margin-left:auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .social{
+        display:none;
+    }
+    .nav-links{
+        align-self: center;
+    }
+    .mobile-nav{
+        display: none;
+        }
+    .main-nav{
+        z-index: 101;
+    }
+    .nav-logo > img{
+        width:55px;
+        height:40px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1999px){
+    .nav-links{
+        align-self: center;
+        z-index: 101;
+    }
+    .mobile-nav{
+    display: none;
+    }
+    .main-nav{
+        z-index: 101;
+    }
+    .nav-logo{
+        z-index: 101;
+    }
+    .basket-div{
+        z-index: 101;
+    }
+    .social{
+        z-index: 101;
+    }
+    .login-sign{
+        z-index: 101;
+    }
+    .nav-logo > img{
+        width:55px;
+        height:40px;
+    }
+}

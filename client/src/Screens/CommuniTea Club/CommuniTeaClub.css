@@ -1,0 +1,60 @@
+.container-div{
+    background-image: url(https://static.wixstatic.com/media/ae507e_cb4ff936aa0a433f8c4af38f1021f4f5~mv2.jpg/v1/fill/w_2245,h_1127,al_c,q_80,usm_0.66_1.00_0.01,blur_2/ae507e_cb4ff936aa0a433f8c4af38f1021f4f5~mv2.jpg);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top:100px;
+    
+}
+
+.CTC-h1{
+    color:white;
+    font-weight:350;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 8px white;
+    font-size:50px;
+}
+
+
+.container-div > div{
+    margin: auto 100px auto 100px
+
+}
+
+.container-div > div >h2{
+    font-size:28px;
+    color:white;
+    text-shadow: 0px 0px 10px black;
+    
+}
+.container-div > div >h3{
+    font-size:20px;
+    margin-top:20px;
+}
+.container-div > div >h4{
+    font-size:20px;
+    color:white;
+    text-shadow: 0px 0px 20px black;
+    
+}
+
+.container-div input{
+    border:none;
+    border-radius:5px;
+    margin:20px 5px 20px 5px;
+    
+}
+
+.container-div .form-textbox{
+    width:300px
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .container-div > div{
+        margin: auto 5% auto 5%
+    
+    }
+}

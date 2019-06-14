@@ -1,0 +1,183 @@
+.page-container{
+    margin-top:80px;
+    text-align: center;
+    align-items: center;
+}
+.page-container>div{
+    flex-wrap:wrap;
+}
+.page-container>div>div{
+    flex:1 1 50%
+}
+.page-container>div>div>h2{
+    font-weight:400;
+}
+
+.intro-div{
+    background-color:white;
+    /*padding:0px 20% 0px 20%;*/
+    align-items: center;
+    
+}
+.terroir-div{
+    background-color:lightgrey;
+    /*padding:0px 20% 0px 20%;*/
+    display:flex;
+    
+    flex-wrap:wrap;
+    align-items: center;
+}
+.terroir-div > div> img{
+    width:300px;
+    margin-right:30px;
+}
+
+.tea-master-div{
+    background-color:white;
+    /*padding:0px 20% 0px 20%;*/
+    display:flex;
+    align-items: center;
+}
+.tea-master-div > div> img{
+    width:300px;
+    margin-left:30px;
+}
+.transparency-div{
+    background-color:lightgrey;
+    /*padding:0px 20% 0px 20%;*/
+    display:flex;
+    align-items: center;
+}
+.transparency-div > div> img{
+    width:300px;
+    margin-right:30px;
+}
+.yulia-div{
+    background-color:white;
+    /*padding:0px 20% 0px 20%;*/
+    align-items: center;
+}
+
+.yulia-div >div{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.yulia-div > div >div{
+    margin-left:50px;
+    flex:1 1 40%;
+}
+.yulia-div >div> div>img{
+    width:300px;
+    height:300px;
+    border-radius: 300px;  
+}
+.sasha-div{
+    background-color:lightgrey;
+    /*padding:0px 20% 0px 20%;*/
+    align-items: center;
+}
+.sasha-div >div{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.sasha-div > div >div{
+    margin-right:50px;
+    flex:1 1 40%;
+}
+.sasha-div >div> div>img{
+    width:300px;
+    height:300px;
+    border-radius: 300px;
+   
+}
+.name-div{
+    background-color:white;
+    /*padding:0px 20% 0px 20%;*/
+    align-items: center;
+}
+
+.intro-div > h1{
+    font-weight:300;
+   
+    margin-bottom:20px;
+}
+.intro-div > p{
+    font-size:18px;
+    font-style: italic;
+   
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .intro-div > h1{
+        
+        font-size: 50px;
+        
+    }
+    .page-container>div{
+        padding:50px 5%;
+    }
+    .yulia-div > div >div{
+       margin:0px;
+    }
+    .sasha-div > div >div{
+        margin:0px;
+     }
+     .page-container>div>div>img{
+        margin:0px 0px !important;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 757px){
+    .intro-div > h1{
+        
+        font-size: 50px;
+        
+    }
+    .page-container>div{
+        padding:50px 5%;
+    }
+    .yulia-div > div >div{
+       margin-right:50px;
+    }
+    .sasha-div > div >div{
+        margin-left:50px;
+     }
+     .page-container>div>div>img{
+        margin:0px 30px !important;
+    }
+
+}
+
+@media only screen and (min-width: 758px) and (max-width: 991px){
+    .intro-div > h1{
+        
+        font-size: 50px;
+        
+    }
+    .page-container>div{
+        padding:50px 5%;
+    }
+}
+@media only screen and (min-width: 991px) and (max-width: 1190px){
+    .intro-div > h1{
+        
+        font-size: 50px;
+        
+    }
+    .page-container>div{
+        padding:50px 10%;
+    }
+}
+@media only screen and (min-width: 1190px) and (max-width: 1999px){
+    .intro-div > h1{
+        
+        font-size: 50px;
+        
+    }
+    .page-container>div{
+        padding:50px 20% 50px 20%;
+    }
+}
