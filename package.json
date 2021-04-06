@@ -18,7 +18,7 @@
     "body-parser": "^1.19.0",
     "cjs-loader": "^0.1.0",
     "compression": "^1.7.4",
-    "concurrently": "^4.1.0",
+    "concurrently": "^6.0.1",
     "cors": "^2.8.5",
     "create-react-app": "^3.0.0",
     "dotenv": "^8.0.0",
