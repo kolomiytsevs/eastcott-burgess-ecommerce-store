@@ -29,7 +29,7 @@
     "mongodb": "^3.2.3",
     "mongoose": "^5.5.15",
     "node-fetch": "^2.5.0",
-    "nodemon": "^1.19.1",
+    "nodemon": "^2.0.10",
     "paypal-rest-sdk": "^1.8.1",
     "request": "^2.88.0"
   },
